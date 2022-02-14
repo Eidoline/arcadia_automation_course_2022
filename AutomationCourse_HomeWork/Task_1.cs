@@ -8,11 +8,11 @@ namespace AutomationCourse_HomeWork
         {
             Console.WriteLine("Please add three arguments for the futher operations:");
             Console.Write("x = ");
-            double x = Convert.ToInt32(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine());
             Console.Write("y = ");
-            double y = Convert.ToInt32(Console.ReadLine());
+            double y = Convert.ToDouble(Console.ReadLine());
             Console.Write("z = ");
-            double z = Convert.ToInt32(Console.ReadLine());
+            double z = Convert.ToDouble(Console.ReadLine());
 
             double result1 = (x + y) * (1 + Math.Sqrt(z));
             Console.WriteLine($"The result of the first statement: {result1}");          
